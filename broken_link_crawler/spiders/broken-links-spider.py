@@ -2,12 +2,12 @@ __author__ = 'Mark'
 
 from scrapy.contrib.spiders import CrawlSpider , Rule
 from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
-from broken_links_crawler.items import BrokenItem
-import broken_links_crawler.crawler_config as config
+from broken_link_crawler.items import BrokenItem
+import broken_link_crawler.crawler_config as config
 
 
 class BrokenSpider(CrawlSpider) :
-    name = 'fpu'
+    name = config.name
     allowed_domains = config.allowed_domains
     start_urls = config.start_urls
     handle_httpstatus_list = [404]

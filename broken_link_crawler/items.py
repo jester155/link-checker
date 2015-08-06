@@ -13,4 +13,4 @@ class BrokenItem(scrapy.Item):
     # name = scrapy.Field()
     url = scrapy.Field()
     status = scrapy.Field()
-    refer = scrapy.Field()
+    referer = scrapy.Field()

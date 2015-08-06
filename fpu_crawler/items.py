@@ -8,9 +8,9 @@
 import scrapy
 
 
-class FpuCrawlerItem(scrapy.Item):
+class BrokenItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    title = scrapy.Field()
-    link = scrapy.Field()
-    desc = scrapy.Field()
+    url = scrapy.Field()
+    status = scrapy.Field()
+    refer = scrapy.Field()

@@ -28,6 +28,8 @@
 ## File-based project format:
 *.ipr
 *.iws
+*.json
+*.csv
 
 ## Plugin-specific files:
 

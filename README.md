@@ -21,6 +21,6 @@ Used to find broken links on a website. This will report any link that is not a 
 
 `scrapy crawl 'my_crawler' -o output.json`
 
-replace 'my_crawler'with the name specified in crawler_config.py
+replace 'my_crawler' with the name specified in crawler_config.py
 The output.json file will be placed in the spider folder.
 

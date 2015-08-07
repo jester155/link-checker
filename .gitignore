@@ -28,8 +28,6 @@
 ## File-based project format:
 *.ipr
 *.iws
-*.json
-*.csv
 
 ## Plugin-specific files:
 
@@ -46,3 +44,7 @@ atlassian-ide-plugin.xml
 com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
+
+# other file formats
+*.json
+*.csv

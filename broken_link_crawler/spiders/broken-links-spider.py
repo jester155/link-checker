@@ -10,7 +10,7 @@ class BrokenSpider(CrawlSpider) :
     name = config.name
     allowed_domains = config.allowed_domains
     start_urls = config.start_urls
-    handle_httpstatus_list = [404]
+    handle_httpstatus_list = [400 , 404 , 500 , 503]
     rules = (Rule(SgmlLinkExtractor() , callback='parse_items' , follow=True) ,)
 
     def parse_items(self , response) :

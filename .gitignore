@@ -46,5 +46,5 @@ crashlytics.properties
 crashlytics-build.properties
 
 # other file formats
-*.json
+*.JSON
 *.csv

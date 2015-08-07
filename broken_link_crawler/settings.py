@@ -19,7 +19,7 @@ NEWSPIDER_MODULE = 'broken_link_crawler.spiders'
 #USER_AGENT = 'broken_link_crawler (+http://www.yourdomain.com)'
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-#CONCURRENT_REQUESTS=32
+CONCURRENT_REQUESTS=64
 
 # Configure a delay for requests for the same website (default: 0)
 # See http://scrapy.readthedocs.org/en/latest/topics/settings.html#download-delay
@@ -83,3 +83,4 @@ CONCURRENT_REQUESTS_PER_DOMAIN=64
 #HTTPCACHE_DIR='httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES=[]
 #HTTPCACHE_STORAGE='scrapy.extensions.httpcache.FilesystemCacheStorage'
+URLLENGTH_LIMIT=65536
